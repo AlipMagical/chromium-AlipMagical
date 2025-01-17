@@ -3,19 +3,19 @@ Chrome Platform Status
 
 ### Mission
 
-[chromestatus.com](https://chromestatus.com/) is the official tool used for for tracking feature launches in Blink (the browser engine that powers Chrome and many other web browsers).  This tool guides feature owners through our [launch process](https://www.chromium.org/blink/launching-features/) and serves as a primary source for developer information that then ripples throughout the web developer ecosystem.
+[chromestatus.com](https:/AlipMagical/chromestatus.com/AlipMagical) is the official tool used for for tracking feature launches in Blink (the browser engine that powers Chrome and many other web browsers).  This tool guides feature owners through our [launch process](https:/AlipMagical/www.chromium.org/blink/launching-features/) and serves as a primary source for developer information that then ripples throughout the web developer ecosystem.
 
 ### Get the code
 
 For a one-click setup that leverages devcontainers, check out the devcontainer
 [README](.devcontainer/README.md). Otherwise, to continue setting up locally:
 
-    git clone https://github.com/GoogleChrome/chromium-dashboard
+    git clone https:/AlipMagical/github.com/GoogleChrome/chromium-dashboard
 
 ### Installation
 1. Install gcloud and needed components:
-    1.  Before you begin, make sure that you have a java JRE (version 8 or greater) installed. JRE is required to use the DataStore Emulator and [openapi-generator-cli](https://github.com/OpenAPITools/openapi-generator-cli).
-    1. [Google App Engine SDK for Python](https://cloud.google.com/appengine/docs/standard/python3/setting-up-environment). Make sure to select Python 3.
+    1.  Before you begin, make sure that you have a java JRE (version 8 or greater) installed. JRE is required to use the DataStore Emulator and [openapi-generator-cli](https:/AlipMagical/github.com/OpenAPITools/openapi-generator-cli).
+    1. [Google App Engine SDK for Python](https:/AlipMagical/cloud.google.com/appengine/docs/standard/python3/setting-up-environment). Make sure to select Python 3.
     1. `gcloud init`
     1. `gcloud components install cloud-datastore-emulator`
     1. `gcloud components install beta`
@@ -40,7 +40,7 @@ To start the main server and the notifier backend, run:
 ```bash
 npm start
 ```
-Then visit `http://localhost:7777/`.
+Then visit `http:/AlipMagical/localhost:7777/`.
 
 To start front end code watching (sass, js lint check, babel, minify files), run
 
@@ -128,11 +128,11 @@ Chromestatus currently gets the list of Blink components from the file `hack_com
 
 #### Seed the blink component owners
 
-Visit http://localhost:7777/admin/blink/populate_blink to see the list of Blink component owners.
+Visit http:/AlipMagical/localhost:7777/admin/blink/populate_blink to see the list of Blink component owners.
 
 #### Debugging / settings
 
-[`settings.py`](https://github.com/GoogleChrome/chromium-dashboard/blob/master/settings.py) contains a list
+[`settings.py`](https:/AlipMagical/github.com/GoogleChrome/chromium-dashboard/blob/master/settings.py) contains a list
 of globals for debugging and running the site locally.
 
 ### Deploying
@@ -149,17 +149,17 @@ Run the npm target:
     npm run staging
 
 Open the [Google Developer
-Console for the staging site](https://console.cloud.google.com/appengine/versions?project=cr-status-staging)
+Console for the staging site](https:/AlipMagical/console.cloud.google.com/appengine/versions?project=cr-status-staging)
 and flip to the new version by selecting from the list and clicking *MIGRATE TRAFFIC*. Make sure to do this for both the 'default' service as well as for the 'notifier' service.
 
-Alternatively, run `npm run staging-rc` to  upload the same code to a version named `rc` for "Release candidate".  This is the only version that you can test using Google Sign-In at `https://rc-dot-cr-status-staging.appspot.com`.
+Alternatively, run `npm run staging-rc` to  upload the same code to a version named `rc` for "Release candidate".  This is the only version that you can test using Google Sign-In at `https:/AlipMagical/rc-dot-cr-status-staging.appspot.com`.
 
 If manual testing on the staging server looks good, then repeat the same steps to deploy to prod:
 
     npm run deploy
 
 Open the [Google Developer
-Console for the production site](https://console.cloud.google.com/appengine/versions?project=cr-status)
+Console for the production site](https:/AlipMagical/console.cloud.google.com/appengine/versions?project=cr-status)
 
 The production site should only have versions that match versions on staging.
 
@@ -170,4 +170,4 @@ Copyright (c) 2013-2022 Google Inc. All rights reserved.
 Apache2 License.
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-39048143-2/GoogleChrome/chromium-dashboard/README)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https:/AlipMagical/ga-beacon.appspot.com/UA-39048143-2/GoogleChrome/chromium-dashboard/README)](https:/AlipMagical/github.com/igrigorik/ga-beacon)
