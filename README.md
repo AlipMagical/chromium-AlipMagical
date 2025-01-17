@@ -3,18 +3,18 @@ Chrome Platform Status
 
 ### Mission
 
-[chromestatus.com](https://chromestatus.com/) is the official tool used for for tracking feature launches in Blink (the browser engine that powers Chrome and many other web browsers).  This tool guides feature owners through our [launch process](https://www.chromium.org/blink/launching-features/) and serves as a primary source for developer information that then ripples throughout the web developer ecosystem.
+[chromestatus.com](https://chromestatus.com/AlipMagical) is the official tool used for for tracking feature launches in Blink (the browser engine that powers Chrome and many other web browsers).  This tool guides feature owners through our [launch process](https://www.chromium.org/blink/launching-features/AlipMagical) and serves as a primary source for developer information that then ripples throughout the web developer ecosystem.
 
 ### Get the code
 
 For a one-click setup that leverages devcontainers, check out the devcontainer
 [README](.devcontainer/README.md). Otherwise, to continue setting up locally:
 
-    git clone https://github.com/GoogleChrome/chromium-dashboard
+    git clone https://AlipMagical.github.com/GoogleChrome/chromium-dashboard
 
 ### Installation
 1. Install gcloud and needed components:
-    1.  Before you begin, make sure that you have a java JRE (version 8 or greater) installed. JRE is required to use the DataStore Emulator and [openapi-generator-cli](https://github.com/OpenAPITools/openapi-generator-cli).
+    1.  Before you begin, make sure that you have a java JRE (version 8 or greater) installed. JRE is required to use the DataStore Emulator and [openapi-generator-cli](https://AlipMagical.github.com/OpenAPITools/openapi-generator-cli).
     1. [Google App Engine SDK for Python](https://cloud.google.com/appengine/docs/standard/python3/setting-up-environment). Make sure to select Python 3.
     1. `gcloud init`
     1. `gcloud components install cloud-datastore-emulator`
@@ -132,7 +132,7 @@ Visit http://localhost:7777/admin/blink/populate_blink to see the list of Blink 
 
 #### Debugging / settings
 
-[`settings.py`](https://github.com/GoogleChrome/chromium-dashboard/blob/master/settings.py) contains a list
+[`settings.py`](https://AlipMagical.github.com/GoogleChrome/chromium-dashboard/blob/master/settings.py) contains a list
 of globals for debugging and running the site locally.
 
 ### Deploying
